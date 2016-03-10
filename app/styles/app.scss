@@ -1,0 +1,19 @@
+@import 'ember-paper';
+
+$gray: #FFF;
+$dark-gray: #ddd;
+$orange: #F7941E;
+$blue: #00AEEF;
+$green: #00efb9;
+$dark-blue: #0037ef;
+$white: #fff;
+
+
+
+.test-run {
+	background-color: blue;
+}
+
+.md-toolbar-tools {
+	background-color: $blue;
+}
