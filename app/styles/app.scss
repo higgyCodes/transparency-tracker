@@ -1,4 +1,5 @@
 @import 'ember-paper';
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 
 $gray: #FFF;
 $dark-gray: #ddd;
@@ -9,11 +10,46 @@ $dark-blue: #0037ef;
 $white: #fff;
 
 
-
-.test-run {
-	background-color: blue;
+.ember-application {
+	background-color: $blue;
 }
 
-.md-toolbar-tools {
+.md-default-theme.tool-bar-size {
+	background-color: $white;
+	height: 150px;
+	img {
+		height: 90px;
+		margin-top: 80px;
+	}
+}
+
+.md-toolbar.md-default-theme {
 	background-color: $blue;
+	img {
+		height: 90px;
+	}
+}
+
+.tool-bar-size {
+	height: 200px;
+	background-color: $blue;
+}
+
+.md-padding.md-default-theme {
+	background-color: $blue;
+}
+
+.cell-block-white {
+	background-color: $white;
+}
+
+h1 {
+	color: $white;
+	font-size: 30pt;
+}
+
+div.tool-bar.header {
+	text-align: center;
+	color: $orange;
+	font-size: 45pt;
 }
